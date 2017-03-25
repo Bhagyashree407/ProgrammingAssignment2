@@ -21,7 +21,7 @@
 #trial:matrix <- makeCacheMatrix(matrix(10:14, 2,2)
 #matrix$get()
 
-## this function calculates inverse of matrix by using function cacheSolve()
+## this function calculates inverse of matrix by using function cacheSolve().
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
